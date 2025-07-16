@@ -8,9 +8,9 @@
 #---------------------------------------------------------------------
 name: GHA-Pipeline-to-AWS-DEMO
 env:
-  AWS_S3_BUCKET_NAME: "github-aws-integration-bucket"
-  AWS_IAM_ROLE_ARN  : "arn:aws:iam::061302979075:role/github-aws-integration-role"
-  AWS_DEFAULT_REGION: "ca-central-1"
+  AWS_S3_BUCKET_NAME: "aws-integration-bucket-with-github"
+  AWS_IAM_ROLE_ARN  : "arn:aws:iam::762134991813:role/github"
+  AWS_DEFAULT_REGION: "eu-central-1"
 
 permissions:
   id-token: write # This is required for requesting the JWT
